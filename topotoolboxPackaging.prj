@@ -1,0 +1,146 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration file="\\wsl.localhost\debian\home\wkearn\files\projects\topotoolbox\code\topotoolbox\TopoToolbox.prj" location="\\wsl.localhost\debian\home\wkearn\files\projects\topotoolbox\code\topotoolbox" name="TopoToolbox" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>TopoToolbox</param.appname>
+    <param.authnamewatermark>Wolfgang Schwanghart</param.authnamewatermark>
+    <param.email>wolfgang.schwanghart@uni-potsdam.de</param.email>
+    <param.company>University of Potsdam</param.company>
+    <param.summary>MATLAB toolbox for the analysis of digital elevation models</param.summary>
+    <param.description>TopoToolbox v3 is the latest version of the topographic analysis software.</param.description>
+    <param.screenshot />
+    <param.version>3.0</param.version>
+    <param.output>${PROJECT_ROOT}\TopoToolbox.mltbx</param.output>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Image Processing Toolbox</item>
+      <item>Mapping Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>17</item>
+      <item>11</item>
+    </param.products.id>
+    <param.products.version>
+      <item>23.2</item>
+      <item>23.2</item>
+      <item>23.2</item>
+    </param.products.version>
+    <param.platforms />
+    <param.guid>b43f7181-5bf7-4300-98c8-afbc359c3432</param.guid>
+    <param.exclude.filters />
+    <param.exclude.pcodedmfiles>true</param.exclude.pcodedmfiles>
+    <param.examples />
+    <param.demosxml />
+    <param.apps />
+    <param.registered.apps />
+    <param.docs />
+    <param.getting.started.guide />
+    <param.matlabpath.excludes />
+    <param.javaclasspath.excludes />
+    <param.exported.on.package>false</param.exported.on.package>
+    <param.required.addons />
+    <param.matlab.project.id />
+    <param.matlab.project.name />
+    <param.release.start />
+    <param.release.end />
+    <param.release.current.only>false</param.release.current.only>
+    <param.compatiblity.windows>true</param.compatiblity.windows>
+    <param.compatiblity.macos>true</param.compatiblity.macos>
+    <param.compatiblity.linux>true</param.compatiblity.linux>
+    <param.compatiblity.matlabonline>true</param.compatiblity.matlabonline>
+    <param.installation.map />
+    <param.additional.sw.names />
+    <param.additional.sw.licenses />
+    <param.additional.sw.win.url />
+    <param.additional.sw.mac.url />
+    <param.additional.sw.linux.url />
+    <unset>
+      <param.screenshot />
+      <param.output />
+      <param.platforms />
+      <param.exclude.filters />
+      <param.exclude.pcodedmfiles />
+      <param.examples />
+      <param.demosxml />
+      <param.apps />
+      <param.registered.apps />
+      <param.docs />
+      <param.getting.started.guide />
+      <param.matlabpath.excludes />
+      <param.javaclasspath.excludes />
+      <param.exported.on.package />
+      <param.required.addons />
+      <param.matlab.project.id />
+      <param.matlab.project.name />
+      <param.release.start />
+      <param.release.end />
+      <param.release.current.only />
+      <param.compatiblity.windows />
+      <param.compatiblity.macos />
+      <param.compatiblity.linux />
+      <param.compatiblity.matlabonline />
+      <param.installation.map />
+      <param.additional.sw.names />
+      <param.additional.sw.licenses />
+      <param.additional.sw.win.url />
+      <param.additional.sw.mac.url />
+      <param.additional.sw.linux.url />
+    </unset>
+    <fileset.rootdir>
+      <file>${PROJECT_ROOT}\toolbox</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${PROJECT_ROOT}\toolbox\@DIVIDEobj</file>
+      <file>${PROJECT_ROOT}\toolbox\@FLOWobj</file>
+      <file>${PROJECT_ROOT}\toolbox\@GRIDobj</file>
+      <file>${PROJECT_ROOT}\toolbox\@PPS</file>
+      <file>${PROJECT_ROOT}\toolbox\@STREAMobj</file>
+      <file>${PROJECT_ROOT}\toolbox\@SWATHobj</file>
+      <file>${PROJECT_ROOT}\toolbox\colormaps</file>
+      <file>${PROJECT_ROOT}\toolbox\compilemexfiles.m</file>
+      <file>${PROJECT_ROOT}\toolbox\Contents.m</file>
+      <file>${PROJECT_ROOT}\toolbox\EGM96</file>
+      <file>${PROJECT_ROOT}\toolbox\examples</file>
+      <file>${PROJECT_ROOT}\toolbox\flowpathapp.m</file>
+      <file>${PROJECT_ROOT}\toolbox\GIStools</file>
+      <file>${PROJECT_ROOT}\toolbox\IOtools</file>
+      <file>${PROJECT_ROOT}\toolbox\mappingapp.m</file>
+      <file>${PROJECT_ROOT}\toolbox\showmethods.m</file>
+      <file>${PROJECT_ROOT}\toolbox\tthelp.m</file>
+      <file>${PROJECT_ROOT}\toolbox\ttlem</file>
+      <file>${PROJECT_ROOT}\toolbox\utilities</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}" name="TopoToolbox.mltbx" optional="false">\\wsl.localhost\debian\home\wkearn\files\projects\topotoolbox\code\topotoolbox\TopoToolbox.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2023b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
