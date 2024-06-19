@@ -1,7 +1,7 @@
 name: CI
 on:
   push:
-    branches: ["github-actions"]
+    branches: ["toolbox"]
 jobs:
   build:
     name: Run MATLAB build
