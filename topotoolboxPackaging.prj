@@ -1,12 +1,12 @@
 <deployment-project plugin="plugin.toolbox" plugin-version="1.0">
-  <configuration file="\\wsl.localhost\debian\home\wkearn\files\projects\topotoolbox\code\topotoolbox\TopoToolbox.prj" location="\\wsl.localhost\debian\home\wkearn\files\projects\topotoolbox\code\topotoolbox" name="TopoToolbox" target="target.toolbox" target-name="Package Toolbox">
+  <configuration file="\\wsl.localhost\debian\home\wkearn\files\projects\topotoolbox\code\topotoolbox\topotoolboxPackaging.prj" location="\\wsl.localhost\debian\home\wkearn\files\projects\topotoolbox\code\topotoolbox" name="topotoolboxPackaging" target="target.toolbox" target-name="Package Toolbox">
     <param.appname>TopoToolbox</param.appname>
     <param.authnamewatermark>Wolfgang Schwanghart</param.authnamewatermark>
     <param.email>wolfgang.schwanghart@uni-potsdam.de</param.email>
     <param.company>University of Potsdam</param.company>
     <param.summary>MATLAB toolbox for the analysis of digital elevation models</param.summary>
     <param.description>TopoToolbox v3 is the latest version of the topographic analysis software.</param.description>
-    <param.screenshot />
+    <param.screenshot>${PROJECT_ROOT}\images\logo.png</param.screenshot>
     <param.version>3.0</param.version>
     <param.output>${PROJECT_ROOT}\TopoToolbox.mltbx</param.output>
     <param.products.name>
@@ -54,7 +54,6 @@
     <param.additional.sw.mac.url />
     <param.additional.sw.linux.url />
     <unset>
-      <param.screenshot />
       <param.output />
       <param.platforms />
       <param.exclude.filters />
